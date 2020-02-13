@@ -1,5 +1,5 @@
 {
-    "name": "sixty-nine/php-cloud-lib",
+    "name": "whenspeakteam/php-cloud-lib",
     "description": "A library to generate words clouds in PHP",
     "type": "library",
     "keywords": ["cloud"],
@@ -18,15 +18,7 @@
     },
     "require": {
         "php": ">=5.3.9",
-        "doctrine/collections": "^1.4",
-        "jms/serializer": "^1.2",
-        "imagine/imagine": "~0.5.0",
-        "symfony/console": "~4.1",
-        "symfony/filesystem": "^3.1",
-        "monolog/monolog": "^1.22",
-        "webmozart/assert": "^1.2",
-        "symfony/stopwatch": "^3.1",
-        "symfony/yaml": "^4.2",
+        "imagine/imagine": "~0.7.1",
         "sixty-nine/php-data-types": "0.1.0"
     },
     "require-dev": {

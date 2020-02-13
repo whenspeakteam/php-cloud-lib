@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "102613bfecb15474981cdfcff4a16c60",
+    "content-hash": "c8e947bc6043ff2ae1fc5d77cd268d17",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -259,24 +259,23 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "dev-develop",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avalanche123/Imagine.git",
-                "reference": "3db069bd870f45b5305e7d6bd4e08d45ebb22cef"
+                "reference": "f64ec666baaa800edcbf237db41121a569230709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/3db069bd870f45b5305e7d6bd4e08d45ebb22cef",
-                "reference": "3db069bd870f45b5305e7d6bd4e08d45ebb22cef",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/f64ec666baaa800edcbf237db41121a569230709",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "2.2.*",
-                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.5 || ^8.4"
+                "sami/sami": "dev-master"
             },
             "suggest": {
                 "ext-gd": "to use the GD implementation",
@@ -284,14 +283,9 @@
                 "ext-imagick": "to use the Imagick implementation"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "0.7-dev"
-                }
-            },
             "autoload": {
-                "psr-4": {
-                    "Imagine\\": "src/"
+                "psr-0": {
+                    "Imagine": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -313,7 +307,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2019-12-17T17:07:57+00:00"
+            "time": "2013-07-10T17:25:36+00:00"
         },
         {
             "name": "jms/metadata",
